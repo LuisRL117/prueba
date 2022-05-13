@@ -15,4 +15,10 @@ public class HomeController {
 	public String Ejemplo1() {
 		return "ejemplo1";
 	}
-}
+	
+	@GetMapping("/Portada")
+		public String Portada() {
+			return "Portada";
+		}
+	}
+
